@@ -1,0 +1,78 @@
+form {
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    background-color: var(--white-2);
+    position: absolute;
+    top: 0;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
+.navIcon {
+    color: var(--black-3);
+    font-size: var(--font-20);
+    font-weight: 600;
+}
+
+.logOutBt {
+    padding: 0 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    height: 44px;
+    font-size: var(--font-14);
+    font-weight: 600;
+    color: var(--black-3);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.input {
+    width: 280px;
+    display: block;
+    border-radius: 8px;
+    font-size: var(--font-16);
+    font-weight: 400;
+    padding: 0 0 0 3rem;
+    border: 2px solid var(--border);
+    color: var(--black-3);
+}
+
+.input:focus {
+    outline: none;
+}
+
+.searchBt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.userName {
+    font-size: var(--font-14);
+    font-weight: 500;
+}
+
+.data {
+    font-size: var(--font-14);
+    font-weight: 500;
+    color: var(--black-2);
+}
+
+#usersBox {
+    display: flex;
+    align-items: center;
+}

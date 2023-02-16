@@ -1,0 +1,38 @@
+h2 {
+    font-weight: 600;
+    font-size: var(--font-30);
+}
+
+label {
+    font-size: var(--font-14);
+    font-weight: 500;
+    color: var(--black-2);
+}
+
+input {
+    padding: 0px 14px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    height: 44px;
+    font-size: var(--font-16);
+    font-weight: 400;
+    color: var(--black-2);
+}
+
+#inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+#loginBt {
+    padding: 0px 14px;
+    border: none;
+    border-radius: 8px;
+    height: 44px;
+    font-size: var(--font-16);
+    font-weight: 400;
+    color: var(--white);
+    background-color: var(--green);
+    cursor: pointer;
+}
